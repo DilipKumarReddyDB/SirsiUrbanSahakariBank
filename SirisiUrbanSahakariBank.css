@@ -1,0 +1,177 @@
+.full-red-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+.full-width{
+    width: 100%;
+}
+
+
+.main-heading{
+    font-size: 22px;
+}
+
+.underlined-ip{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.underlined-dotted-ip{
+    border-style: dotted;
+    border-color: black;
+    border-width: 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.black-underlined-ip{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+table, tr, td{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+.invisible-ip{
+    border: none;
+}
+
+.placeholder-center { 
+    text-align: center;
+}
+
+.larger-checkbox{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    background-color: red;
+}
+  
+label {
+    display: block;
+}
+
+.signature-box{
+    width: 300px;
+    height: 55px;
+}
+
+.add-margin{
+    margin-left: 30%;
+}
+.acc-no-ip{
+    height: 28px;
+    width: 28px;
+}
+
+.application-photo-container{
+    height: 220px;
+    width: 200px;
+}
+.signature-with-seal-container{
+    width: 250px;
+    height: 80px;
+}
+.issue-date-border{
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-bottom: none;
+}
+
+.hr-dotted-line{
+    display: block;
+    border-style:dashed;
+    border-width: 2px;
+    color: red;
+    
+}
+
+.declaration-para{
+    font-size: 14px;
+}
+
+input[type="radio"]{
+    appearance: none;
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    content: none;
+    outline: none;
+    margin: 0;
+ }
+ 
+ input[type="radio"]:checked {
+   appearance: none;
+   outline: none;
+   padding: 0;
+   content: none;
+   border: none;
+   width: 25px;
+    height: 25px;
+ }
+ 
+ input[type="radio"]:checked::before{
+   position: absolute;
+   color: white !important;
+   background-color: rgb(16, 127, 253) !important;
+   content: "\2714\00A0" !important;
+   border: 1px solid red;
+   font-weight: bolder;
+   font-size: 15px;
+   width: 25px;
+    height: 25px;
+
+ }
+
+ input[type="checkbox"]{
+    appearance: none;
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    content: none;
+    outline: none;
+    margin: 0;
+ }
+ 
+ input[type="checkbox"]:checked {
+   appearance: none;
+   outline: none;
+   padding: 0;
+   content: none;
+   border: none;
+   width: 25px;
+    height: 25px;
+ }
+ 
+ input[type="checkbox"]:checked::before{
+   position: absolute;
+   color: white !important;
+   background-color: rgb(16, 127, 253) !important;
+   content: "\2714\00A0" !important;
+   border: 1px solid red;
+   font-weight: bolder;
+   font-size: 15px;
+   width: 25px;
+    height: 25px;
+
+ }
